@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls:*)",
+      "Bash(python3:*)",
+      "Bash(python:*)",
+      "Bash(pip install:*)",
+      "Bash(uv pip install:*)",
+      "Bash(uv venv:*)",
+      "Bash(.venv/Scripts/python:*)",
+      "Bash(curl:*)",
+      "Bash(git init:*)",
+      "Bash(git remote add:*)",
+      "Bash(git add:*)"
+    ]
+  }
+}
