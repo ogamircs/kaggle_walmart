@@ -12,8 +12,8 @@ import numpy as np
 import pandas as pd
 import joblib
 
-# Add src to path
-sys.path.insert(0, str(Path(__file__).parent))
+# Add project root to path
+sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from src.config import (
     DATA_PATH, MODELS_DIR, TARGET, RANDOM_SEED,
