@@ -11,7 +11,14 @@
       "Bash(curl:*)",
       "Bash(git init:*)",
       "Bash(git remote add:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nInitial commit: Walmart sales forecasting project\n\n- Add data preprocessing and feature engineering modules\n- Add machine learning models \\(Random Forest, XGBoost, LightGBM\\)\n- Add training script with model evaluation\n- Add Gradio web application for predictions\n- Include Walmart.csv dataset and model results\n\n🤖 Generated with [Claude Code]\\(https://claude.com/claude-code\\)\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git config:*)",
+      "Bash(git push:*)",
+      "Bash(.venv/Scripts/pip:*)",
+      "Bash(\".venv/Scripts/pip.exe\" install pytest pytest-cov -q)",
+      "Bash(\".venv\\\\Scripts\\\\python.exe\" -m pytest tests/ -v --tb=short)",
+      "Bash(git checkout:*)"
     ]
   }
 }
